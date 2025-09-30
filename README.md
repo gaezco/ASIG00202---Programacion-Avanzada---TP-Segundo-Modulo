@@ -42,7 +42,7 @@ Para corra, es necesario importar el archivo **farmacias.xlxs** al colab para qu
 2) CREACION BD --> Aca creo la conexion a la BD del sqllite3 y subo el excel importado a dicha BD
 3) CALCULO KPI --> partiendo de la tabla en BD, arme un Query y use esos datos con las librerias de panda para armar 3 KPIS. Los visualizo en este paso para ver como quedan usando Plotly.
 4) GRAFICO DE BARRAS --> Partiendo de la tabla en BD, arme un Query y use esos datos para armar un grafico de Barras de farmacias por Comuna. Lo visualizo para ver como se ve usando Plotly.
-5) MAPA BARRIOS DE CABA --> Partiendo de la tabla en BD, arme un Query y use esos datos para armar un mapa con la cantidad de farmacias por Barrio. Lo visualizo para ve como funciona 
-6) MAPA GEORGRAFICO --> Partiendeo de la tabla en BD, arme un Query y use esos datos para armar un mapa con la ubicacion de cada farmacia en CABA. Lo visualizo para ve como funciona 
-7) DASHBOARD FINAL --> Uno todos los componentes del punto 3 al 7 para armar el Dashboar solicitado. Uso la funcion DASHBOARD vista en clase
+5) MAPA BARRIOS DE CABA --> Partiendo de la tabla en BD, arme un Query y use esos datos para armar un mapa con la cantidad de farmacias por Barrio. Para esto tuve que usar un JSON con los poligonos de cada barrio que entrega el Gobierno de la ciuidad. Lo visualizo para ve como funciona 
+6) MAPA GEORGRAFICO --> Partiendeo de la tabla en BD, arme un Query y use esos datos para armar un mapa con la ubicacion de cada farmacia en CABA. Lo visualizo para ve como funciona. Lamentablemente, no pude encontrar de manera publica la URL con el JSON con los poligonos por cada Comuna, para sumarlo al mapa y asi correlacionar el dato geografico con el grafico de barras del punto 4.
+7) DASHBOARD FINAL --> Uno todos los componentes del punto 3 al 7 para armar el Dashboar solicitado. Uso la funcion DASHBOARD y subplots vista en clase.
 
